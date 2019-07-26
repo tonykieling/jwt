@@ -33,4 +33,9 @@ app.get('*', (req, res) => {
 });
 
 
+// const pathX = path.resolve("public");
+// console.log("pathX - server.js", pathX);
+// console.log(path.join(__dirname, './public', 'index.html'));
+// console.log(path.resolve('public/static'));
+
 app.listen(PORT, () => console.log(`Service is running on port ${PORT}`));

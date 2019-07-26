@@ -1,4 +1,8 @@
+var path = require('path');
 const Pool = require('pg').Pool;
+
+const pathX = path.resolve("static/css", "asd/");
+console.log("pathX - user.js", pathX);
 
 // database access configuration
 // keeping here instead using .env due to information purpose
